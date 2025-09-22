@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow-x: auto;
+  width: 90%;
+  max-width: 1000px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 700px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #007bff;
+  color: white;
+}
+
+td {
+  background: #f9f9f9;
+  cursor: pointer;
+}
+
+td:focus {
+  outline: none;
+  background: #e3f2fd;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+.save-btn { background: #28a745; }
+.save-btn:hover { background: #218838; }
+
+.clear-btn { background: #dc3545; }
+.clear-btn:hover { background: #a71d2a; }
+
+.add-btn { background: #17a2b8; }
+.add-btn:hover { background: #117a8b; }
+
+.pdf-btn { background: #6f42c1; }
+.pdf-btn:hover { background: #5936a2; }
+
+.remove-btn {
+  background: #ffc107;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.remove-btn:hover {
+  background: #e0a800;
+}
